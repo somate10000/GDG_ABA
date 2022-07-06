@@ -90,3 +90,20 @@ z-index: 50;
     grid-template-columns: repeat(15, minmax(0, 1fr)); ;
     grid-template-rows: repeat(6, minmax(0, 1fr)); ;    
 }
+#pop-up {
+    top: 440px;
+    animation: drop 0.5s ease-in-out forwards
+}
+#pop-up:nth-child(2) {
+    top: 440px;
+    animation: drop 0.65s ease-in-out forwards
+}
+#pop-up:nth-child(3){
+    top: 440px;
+    animation: drop 0.7s ease-in forwards
+}
+@keyframes drop {
+    0%{}
+   
+   100%{transform: translateY(-220px);}
+}
